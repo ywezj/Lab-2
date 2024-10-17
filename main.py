@@ -2,7 +2,7 @@ from csv import reader
 
 
 flag = 0
-output = open('result.txt', 'w')
+output = open('results.txt', 'w')
 search = input('Search for: ')
 with open('civic.csv', 'r', encoding='windows-1251') as csvfile:
     table = reader(csvfile, delimiter=';')
